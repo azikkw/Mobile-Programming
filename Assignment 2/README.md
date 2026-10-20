@@ -4,6 +4,12 @@ TaskFlow is a small task manager for Android built with **Kotlin, Jetpack Compos
 It continues the console project from HW1: the `Task` data class, `Priority`, the sealed class `TaskResult`
 and the `User` / `Manager` inheritance are reused, and the logic from `TaskManager` now lives in a `ViewModel`.
 
+# Screens
+
+| Manager screen | Member screen | Add task screen |
+|---|---|---|
+| ![Manager screen](screenshots/manager-screen.png) | ![Memeber screen](screenshots/member-screen.png) | ![Add task screen](screenshots/add-task-screen.png) |
+
 ## Features
 
 - List of tasks with priority badges, assignee, estimate and tags (tap a card to expand it)
